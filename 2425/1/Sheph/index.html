@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<div id="container">
+		<h1 id="title">精靈訓練員申請表</h1>
+		<p id="description">根據你的圖鑑輸入以下內容</p>
+		<form id="survey-form">
+			<label id="name-label">
+				<fieldset>
+					<legend>帳號</legend>
+					<input id="name" type="text" placeholder="請輸入帳號" required><br>
+				</fieldset>
+			</label>
+			<label id="email-label">
+				<fieldset>
+					<legend>電郵</legend>
+					<input id="email" type="email" placeholder="請輸入電郵" required><br>
+				</fieldset>
+			</label>
+			<label id="number-label">
+				<fieldset>
+					<legend>等級</legend>
+					<input id="number" type="number" min="0" max="999" placeholder="請輸入整數">
+				</fieldset>
+			</label>
+			<label>
+				<fieldset>
+					<legend>性別</legend>
+					<select id="dropdown">
+						<option value="M">男</option>
+						<option value="F">女</option>
+					</select>
+				</fieldset>
+			</label>
+			<fieldset>
+				<legend>類型</legend>
+				<label class="expLabel">
+					<input type="radio" name="exp" value="1">新手
+				</label>
+				<label class="expLabel">
+					<input type="radio" name="exp" value="2">經驗者
+				</label>
+				<label class="expLabel">
+					<input type="radio" name="exp" value="3">收藏家
+				</label>
+				<label class="expLabel">
+					<input type="radio" name="exp" value="4">決鬥士
+				</label>
+				<label class="expLabel">
+					<input type="radio" name="exp" value="5">其他
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>屬性</legend>
+				<label class="typeLabel">
+					<input type="checkbox" value="grass">
+					<div class="type grass"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="fire">
+					<div class="type fire"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="water">
+					<div class="type water"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="electric">
+					<div class="type electric"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="psychic">
+					<div class="type psychic"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="fighting">
+					<div class="type fighting"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="dark">
+					<div class="type dark"></div>
+				</label>
+				<label class="typeLabel">
+					<input type="checkbox" value="steel">
+					<div class="type steel"></div>
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>備註</legend>
+				<textarea></textarea> <br>
+			</fieldset>
+			<input type="submit" id="submit" value="">
+		</form>
+	</div>
+</body>
+
+</html>

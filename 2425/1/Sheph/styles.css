@@ -1,0 +1,95 @@
+body {
+  font-size: 20px;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/02/93/83/15/1000_F_293831552_fkq7tH8eDTzI0u4u3HRrIMHzZNm1JZvp.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  max-width: 800px;
+  padding: 5px;
+  background: #fffd;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+label:not([class]) {
+  width: 49%;
+  margin-left: 0.5%;
+  border: 0px;
+  display: inline-block;
+}
+
+label[id] input,
+label select {
+  width: 100%;
+}
+
+div.type {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('https://static.tcgcollector.com/content/content/images/cf/4f/28/cf4f284b390ff11d4b4cd4af16f2157e443a00c6fee9fb30ec07469b05f460a9.png');
+  background-size: 87px;
+  margin-right: 5px;
+}
+
+div.fire {
+  background-position: -22.33px 0;
+}
+
+div.water {
+  background-position: -44.66px 0;
+}
+
+div.electric {
+  background-position: -67px 0
+}
+
+div.psychic {
+  background-position: 0 20px
+}
+
+div.fighting {
+  background-position: -22.33px 20px
+}
+
+div.dark {
+  background-position: -44.66px 20px
+}
+
+div.steel {
+  background-position: -67px 20px
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+input[type="submit"] {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: url('https://img.game8.co/4025660/fb46fb278597f2ae323094c43404db17.png/show');
+  background-size: cover;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+  label:not([class]) {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
