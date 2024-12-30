@@ -1,0 +1,63 @@
+body {
+  font-size: 15px;
+  background-image: url("https://img.genseki.me/works/works_1633015948_KuiuV9pgkm.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 25px;
+}
+
+#container {
+  max-width: 350px;
+  min-width: 350px;
+  padding: 4px;
+  background: #fffd;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+#survey-form {
+  width: 85.5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  max-width: 500px;
+}
+
+fieldset {
+  margin: auto;
+  padding: 1rem 0;
+}
+
+input[type="checkbox"] {
+  margin: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  margin: 6.5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 55%;
+  min-height: 1.5em;
+}
+
+#submit {
+  width: 100%;
+  margin: 0.5em 0 0 0;
+  height: 2em;
+  font-size: 1rem;
+  min-width: 100px;
+}
