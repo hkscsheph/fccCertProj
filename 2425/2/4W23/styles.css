@@ -3,12 +3,16 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url(https://i.imgur.com/q9feBCp.png);
+    background-size: cover;
+    background-attachment: fixed;
     font-family: Tahoma;
     font-size: 16px;
+    color: white;
   }
   
   img{
     display: block;
+    margin: 0 auto;
   }
   
   #title {
@@ -29,32 +33,6 @@ body {
       margin: auto;
     }
   
-  h1{
-    color: white;
-  }
-  
-  h2{
-    color: white;
-  }
-  
-  h3{
-    color: white;
-  }
-  
-  p{
-    color: white;
-  }
-  
-  b{
-    color: white;
-  }
-  li{
-    color: white;
-  }
-  div{
-    color: white;
-  }
-  
     @media only screen and (min-width:480px)
     {
   
@@ -62,6 +40,9 @@ body {
   
     @media only screen and (min-width:767px)
     {
+      .font {
+         padding: 0px 200px 15px 200px;
+             }
   
     }
   
@@ -72,9 +53,7 @@ body {
   
     @media only screen and (min-width:1200px)
     {
-   .font {
-      padding: 0px 200px 15px 200px;
-          }
+
     }
   
     @media(orientation: landscape)
