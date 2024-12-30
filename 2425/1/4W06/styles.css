@@ -1,5 +1,9 @@
 body {
+  text-transform: capitalize;
   background-image: url(https://iconparkorlando.com/bc/wp-content/uploads/wheelhouse-market-winnie-tea-bar.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font-family: Avantgarde;
   color: white
 }
@@ -18,61 +22,48 @@ body {
 
 .greentea {
   background-image: url('https://bodyandmindbotanicals.com/cdn/shop/articles/Jasmine-GT.jpg?v=1652093929');
-  background-size: cover;
-  display: inline-block;
-  width: 60px;
-  height: 50px;
-  /*   background-size: 87px; */
-  margin-right: 5px;
-  margin-left: 20px
 }
 
 .oolongtea {
   background-image: url('https://media.istockphoto.com/id/622921268/sv/foto/cup-of-tea-teapot-and-tea-leaves-on-wooden-table.jpg?s=612x612&w=0&k=20&c=z3pQf_MrgkQKJrgJyeJqB-iILSLLwXgz_34IvLQVpHc=');
-  background-size: cover;
-  display: inline-block;
-  width: 70px;
-  height: 50px;
-  margin-right: 5px;
-  margin-left: 20px
 }
 
 .roastoolongtea {
   background-image: url('https://eco-cha.com/cdn/shop/products/CharcoalRoastedHighMountainOolongLimitedEdition-Lifestyle01-1080px_1080x1080.jpg?v=1639623791');
-  background-size: cover;
-  display: inline-block;
-  width: 70px;
-  height: 50px;
-  margin-right: 5px;
-  margin-left: 20px
 }
 
 .freshmilk {
   background-image: url('https://img.rtacdn-os.com/20241210/6ef5df45-d9e5-315a-85fb-1419f62e8fc3_.webp');
-  background-size: cover;
-  display: inline-block;
-  width: 70px;
-  height: 80px;
-  margin-right: 5px;
-  margin-left: 20px
 }
 
 .soymilk {
   background-image: url('https://www.kayawell.com/Data/UserContentImg/2018/5/87960995-8030-48bd-a77d-42958da68096.jpg');
-  background-size: 100%;
-  display: inline-block;
-  width: 70px;
-  height: 45px;
-  margin-right: 5px;
-  margin-left: 20px
 }
 
 .oatmilk {
   background-image: url('https://www.luvele.co.uk/cdn/shop/articles/oat_milk_01_1024x.png?v=1717558411');
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+}
+
+.flex label div {
+  height: 100px;
+  width: 100px;
+  background-position: center;
   background-size: cover;
   display: inline-block;
-  width: 70px;
-  height: 70px;
-  margin-right: 5px;
-  margin-left: 20px
 }
