@@ -8,16 +8,16 @@
 		<form id="survey-form">
 
 			<fieldset>
-				<label id="name-label"> 名前:<input id="name" name="name" 　type="text" required=""
-						placeholder="*"><br></label>
+				<label id="name-label"> 名前:<input id="name" name="name" type="text" required="" placeholder="*"><br></label>
 				<label id="email-label"> 電子メール: <input id="email" name="email" type="email" required=""
 						placeholder="*"><br></label>
 				<label id="number-label"> 会員番号: <input id="number" name="number" type="number" min="1" max="100"
-						placeholder="^"></label>
+						placeholder="^">
 				<select id="dropdown">
 					<option value="1">会員</option>
 					<option value="2">非会員</option>
 				</select>
+          </label>
 			</fieldset>
 			<fieldset>
 				<legend>妖怪お選びください</legend>
@@ -32,17 +32,14 @@
 				<label for="座敷童子"><input id="座敷童子" type="checkbox" name="妖怪お選びください" class="inline"
 						value="8">座敷童子</label>
 				<label for="狸"><input id="狸" type="checkbox" name="妖怪お選びください" class="inline" value="9">狸</label>
-				<label for="他の"><input type="checkbox" name="妖怪お選びください" value="10">他の<input id="他の" type="up"
+				<label for="他の"><input type="checkbox" name="妖怪お選びください" value="10">他の<input id="他の" type="text"
 						name="妖怪お選びください" class="inline"></label>
 			</fieldset>
 			<label for="簡単"><input id="簡単" type="radio" name="Ⅴ" class="inline" value="11">簡単</label>
 			<label for="難しい"><input id="難しい" type="radio" name="Ⅴ" class="inline" value="12">難しい</label>
+			<br>
 			<textarea></textarea>
 			<input id="submit" type="submit">
-
-
-
-
 
 
 		</form>
