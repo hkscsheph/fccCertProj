@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    background-image: url(https://www.codewithrandom.com/wp-content/uploads/2023/02/codewithrandom132.png);
+    background-size: cover;
+}
+
+div {
+    width: 100%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 80%;
+    opacity: 95%;
+}
+
+#title,
+#description {
+    color: white;
+    text-align: center;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#description {
+    font-size: 20px;
+
+
+}
+
+header input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+#name,
+#en-name {
+    width: 25%;
+
+}
+
+li {
+    display: block;
+
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+input[type=sumbit] {
+    width: 30px;
+}
+
+.divider {
+    border-bottom: 1px solid white;
+    padding: 0;
+}
+
+#submit {
+    margin-top: 15px;
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+#yes {
+    margin-top: 20px;
+}
+
+#home input {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 50px;
+}
+
+.fire {
+    color: red;
+}
+
+select {
+    border-radius: 3px;
+}
+
+textarea {
+    display: none;
+}

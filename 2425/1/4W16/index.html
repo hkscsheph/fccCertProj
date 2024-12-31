@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta chartset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <h1 id="title">書院縱火許可證</h1>
+    <p id="description">我們需要你的帳號以核實身份</p>
+    <form id="survey-form">
+        <div>
+
+            <header>
+                <lagend class="fire">*以下項目必需輸入</lagend><br />
+                <label id="name-label">中文全名:<input id="name" type="text" placeholder="Enter your name"
+                        required /></label>
+                <label "en-name-label" for="en-name">
+                    英文全名:<input id="en-name" type="text" placeholder="Enter your name" required />
+                </label><br />
+                <label id="email-label">電郵:<input id="email" type="email" required
+                        placeholder="Enter your email" /></label>
+                <label id="number-label">年齡
+                    (optional):<input type="number" id="number" min="10" max="99" placeholder="Age"
+                        required /></label><br />
+                <label>
+                    <label id="id-card">香港身分證號碼:<input type="input" id="id-card" placeholder="例:S012345"
+                            required /></label>
+                    <label for="student-card">學生號碼:<input type="input" id="student-card" placeholder="例:131422"
+                            required /></label></br>
+
+                    <label id="home">住址:
+                        <select id="dropdown">
+                            <option>請選擇</option>
+                            <option>新界</option>
+                            <option>九龍</option>
+                            <option>港島</option>
+                        </select>
+                        <input type="input" id="home2" placeholder="地區" />
+                        <input type="input" id="home2" placeholder="街道名" />
+                        <input type="input" id="home3" placeholder="樓" />
+                        <input type="input" id="home4" placeholder="室" /></label>
+            </header>
+
+
+
+            <div class="divider"></div>
+            <p>我們需要知道你是否擁有以下證書:
+            <p>
+            <ul>
+                <legend>你是否持有<<危險品執法牌照>>?</legend>
+                <li><input type="radio" value="1" name="radio" id="radio1" required /><label for="radio1">是</li>
+                <li><input type="radio" value="2" name="radio" id="radio2" required /><label for="radio2">否</label></li>
+            </ul>
+
+
+            <ul>
+                <legend>你是否持有<<危險品管制牌照>>?</legend>
+                <li><input type="radio" value="1" name="radio2" id="radio2-1" required /><label for="radio2-1">是</label>
+                </li>
+                <li><input type="radio" value="2" name="radio2" id="radio2-2" required /><label for="radio2-2">否</label>
+                </li>
+            </ul>
+
+            <ul>
+                <legend>你是否持有<<消防設施監督牌照>>?</legend>
+                <li><input type="radio" value="1" name="radio3" id="radio3-1" required /><label for="radio3-1">是</label>
+                </li>
+                <li><input type="radio" value="2" name="radio3" id="radio3-2" required /><label for="radio3-2">否</label>
+                </li>
+            </ul>
+            <div class="divider"></div>
+            <label id="ilovehksc">
+                <input type="checkbox" value="1" id="yes" required /><label for="yes">我同意一切後果將自行承擔</label><br />
+                <input type="checkbox" value="2" id="no" required /><label for="no">我已了解和認同<<<a
+                        href="https://youtu.be/dQw4w9WgXcQ?si=xSz04CFUQFLWLSWf">書院法律</a>>></label></label><br />
+            <input id="submit" type="submit">
+            <textarea></textarea>
+    </form>
+    </div>
+</body>
