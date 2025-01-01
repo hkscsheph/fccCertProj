@@ -1,0 +1,26 @@
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/00/92/47/85/360_F_92478590_BbuqPZQDFPOOjIbhQajB3oq2z5cfsVZt.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1,
+p {
+    font-family: Impact;
+    font-weight: 900;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1.1rem;
+
+}
