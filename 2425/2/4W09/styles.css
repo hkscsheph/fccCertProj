@@ -1,0 +1,13 @@
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+    color: brown;
+    font-family: Georgia, serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ813FMFmtj3UnrWmnzKPDAgu5KrUriCxLlHA&s)
+}
