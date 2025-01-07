@@ -12,6 +12,7 @@
 - [4W25](https://hkscsheph.github.io/fccCertProj/2425/1/4W25/)
 
 ### 認證項目 2 致敬頁
+- [4W02](https://hkscsheph.github.io/fccCertProj/2425/2/4W02/)
 - [4W13](https://hkscsheph.github.io/fccCertProj/2425/2/4W13/)
 - [4W16](https://hkscsheph.github.io/fccCertProj/2425/2/4W16/)
 - [4W23](https://hkscsheph.github.io/fccCertProj/2425/2/4W23/)
