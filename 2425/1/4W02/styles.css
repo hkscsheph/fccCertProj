@@ -45,6 +45,14 @@ select {
   min-height: 2em;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+  width: unset;
+  min-height: unset;
+  display: block;
+  transform: translate(-20px, 15px)
+}
+
 input,
 textarea {
   background-color: #0a0a23;
