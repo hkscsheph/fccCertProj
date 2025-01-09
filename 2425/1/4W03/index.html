@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<h1 id="title">request to the abyss</h1>
+	<p id="description">when you stare into the abyss , the abyss stares into you.</p>
+
+	<form id="survey-form">
+		<fieldset>
+			<label id="name-label" for="name">NAME <input id="name" placeholder="name here" name="name" type="text"
+					required /></label>
+			<br>
+			<label id="email-label" for="email">EMAIL <input id="email" placeholder="email here" name="email"
+					type="email" required /></label>
+			<br>
+			<label id="number-label" for="number">AGE <input id="number" placeholder="age here" name="number" min="0"
+					max="120" type="number" required /></label>
+		</fieldset>
+
+		<fieldset>
+			<label for="dropdown">choose the path you desire
+				<select id="dropdown" name="dropdown">
+					<option value="">(select one)</option>
+					<option value="1">hate</option>
+					<option value="2">hope</option>
+					<option value="3">fear</option>
+					<option value="4">freedom</option>
+				</select>
+
+				<br>
+				<br>
+				<legend>what do you feel about your soul?</legend>
+				<label for="light">light <input id="light" value="1" type="radio" name="soul" class="inline">
+				<label for="dark">dark <input id="dark" value="2" type="radio" name="soul" class="inline">
+
+				<br>
+				<br>
+				<legend>which vitasoy flavored milk you would choose</legend>
+				<input id="original" type="checkbox" name="brand" value="original" checked> <label
+					for="original">original</label>
+				<input id="chocolate" type="checkbox" name="brand" value="chocolate" checked> <label
+					for="chocolate">chocolate</label>
+				<br>
+				<br>
+				<textarea name="text" placeholder="questions for us" required></textarea>
+				<br>
+				<button id="submit" type="submit">Submit</button>
+		</fieldset>
+	</form>
+</body>
+
+</html>
