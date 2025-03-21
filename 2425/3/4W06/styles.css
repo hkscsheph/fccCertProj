@@ -1,3 +1,7 @@
+* {
+  border: red 1px solid;
+}
+
 body {
   background-image: url(https://res.cloudinary.com/gimmersta-wallpaper/image/upload/c_fill,f_auto,fl_progressive,q_auto,h_500/v1716294750/articles/SG0064BU03W_product.jpg)}
 
@@ -58,10 +62,8 @@ h1 {
 }
 
 img {
-  width: 800px;
+  width: min(800px, 50vw);
 }
-
-
 
 input {
   display: none
@@ -76,35 +78,48 @@ h2 {
   transition: all 3s ease;
 }
 
-
+.div-aven {
+  display: grid;
+  grid-template:
+  "a a a" 80px
+  "b c c"
+  "b c c" 
+   / 1fr 1fr 1fr;
+}
 header {
+  grid-area: a;
   font-size: 60px;
   text-align: center;
   font-family: Big Shoulders Stencil;
 }
-
+.aven-img {
+  grid-area: b;
+}
+.desc {
+  grid-area: c;
+}
 .aven-img-1 {
   position: absolute;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  width: 20%;
+  animation: example 1s infinite alternate;
 }
 
 @keyframes example {
-  0%   {width:500px; height:500px;top: }
-  50%   {left: 100px}
-  100%   {width:500px; height:500px;}
+  0%   {transform: translate(-20%)}
+  100%   {transform:translate(20%)}
 }
 
-.aven-img-1:hover {
+.desc:hover img {
   cursor: pointer;
   opacity: 0%;
- 
 }
 
-.charater-info {
+.character-info {
   font-family: Big Shoulders Stencil;
   font-size: 20px;
-  display: flex;
-  
+  opacity: 0%;
+}
+
+.desc:hover p {
+  opacity: 100%;
 }
