@@ -1,0 +1,110 @@
+body {
+  background-image: url(https://res.cloudinary.com/gimmersta-wallpaper/image/upload/c_fill,f_auto,fl_progressive,q_auto,h_500/v1716294750/articles/SG0064BU03W_product.jpg)}
+
+.back {
+  width: 80%;
+  background-color: rgb(255, 255, 255, 80%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.directory {
+  font-family: Big Shoulders Stencil;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: left;
+}
+
+li {
+  list-style-type: none
+}
+
+.nav-link{
+  font-family: Big Shoulders Stencil;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none
+}
+
+nav > ul > li:hover {
+  cursor: pointer;
+/*   visibility: hidden; */
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {opacity: 0%}
+  100% {opacity: 100%}
+}
+
+ul {
+  color: white
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+img {
+  width: 800px;
+}
+
+
+
+input {
+  display: none
+}
+
+#tag:checked+h2 {
+  transform: translate(-240px);
+}
+
+h2 {
+  display: flex;
+  transition: all 3s ease;
+}
+
+
+header {
+  font-size: 60px;
+  text-align: center;
+  font-family: Big Shoulders Stencil;
+}
+
+.aven-img-1 {
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {width:500px; height:500px;top: }
+  50%   {left: 100px}
+  100%   {width:500px; height:500px;}
+}
+
+.aven-img-1:hover {
+  cursor: pointer;
+  opacity: 0%;
+ 
+}
+
+.charater-info {
+  font-family: Big Shoulders Stencil;
+  font-size: 20px;
+  display: flex;
+  
+}
