@@ -1,0 +1,13 @@
+#number{
+  width:150px
+}
+
+body{
+background-image: url(https://cdn.nba.com/next/fallback.jpg);
+background-size: cover;
+background-position:center
+}
+
+form{
+  background:#fffa
+}
