@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <h1 id="title">冒險家申請表格</h1>
+  <p id="description">請在下方填寫出自己資料</p>
+
+
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="first-name">冒險家名稱: <input id="name" type="text" placeholder="name" required /></label>
+    </fieldset>
+
+    <fieldset>
+      <label id="email-label" for="first-name">地址電郵: <input id="email" type="email" placeholder="email"
+          required /></label>
+    </fieldset>
+
+    <fieldset>
+      <label id="number-label" for="age">Input your age (years): <input id="number" type="number" placeholder="number"
+          name="age" min="10" max="999" /></label>
+    </fieldset>
+
+
+    <h2>性別</h2>
+    <fieldset>
+      <label><input name="gender" type="radio" value="男" />男</label>
+      <label><input name="gender" type="radio" value="女" />女</label>
+    </fieldset>
+    <h3>種族</h3>
+    <fieldset>
+      <label><input name="race" type="radio" value="人類" /> 人類</label>
+      <label><input name="race" type="radio" value="獸人""/> 獸人</label>
+        <label><input name=" race" type="radio" value="魚人" /> 魚人</label>
+      <label><input name="race" type="radio" value="精靈" /> 精靈</label>
+      <label><input name="race" type="radio" value="龍人" /> 龍人</label>
+    </fieldset>
+    <h4>冒險家職業</h4>
+    <fieldset>
+      <label><input name="job" type="radio" value="劍士" /> 劍士</label>
+      <label><input name="job" type="radio" value="弓箭手" /> 弓箭手</label>
+      <label><input name="job" type="radio" value="法師" /> 法師</label>
+      <label><input name="job" type="radio" value="肉盾" /> 肉盾</label>
+    </fieldset>
+    <h5>冒險家技能加成</h5>
+    <fieldset>
+      <label><input name="job" type="checkbox" value="速度提升" /> 速度提升</label>
+      <label><input name="job" type="checkbox" value="敏捷提升" /> 敏捷提升</label>
+      <label><input name="job" type="checkbox" value="力度提升" /> 力度提升</label>
+      <label><input name="job" type="checkbox" value="觀察力提升" /> 觀察力提升</label>
+    </fieldset>
+    <h6>冒險家元素</h6>
+    <select id="dropdown" name="referrer">
+      <option value="0">(select one)</option>
+      <option value="1">火元素</option>
+      <option value="2">水元素</option>
+      <option value="3">風元素</option>
+      <option value="4">土元素</option>
+      <option value="5">雷元素</option>
+      <option value="6">冰元素</option>
+    </select>
+
+    </fieldset>
+
+    <br>
+    <h7>為什麼你想成為冒險家</h7>
+    <br><textarea></textarea>
+    <input id="submit" type="submit" value="Submit" />
+
+</body>
