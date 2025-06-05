@@ -1,0 +1,11 @@
+* {
+  BACKGROUND: RED;
+}
+
+#image {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+}
