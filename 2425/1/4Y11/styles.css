@@ -1,0 +1,30 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFg2TarmCDSzGp_k1ikilZd5_hkJ-A20-SYA&s.
+);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 200px auto;
+  padding: 0px auto
+}
+
+h1,
+p,
+label,
+input {
+  background-color: brown;
+  display: inline
+}
+
+p,
+input {
+  padding: 0px;
+  margin: 0px;
+}
+
+form {
+  text-align: center;
+  width: 50%;
+  margin: 200px auto;
+  font-size: 1.9rem;
+}
