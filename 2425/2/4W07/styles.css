@@ -1,0 +1,71 @@
+body {
+  background: rgb(2 138 228);
+  width: 100%;
+  margin: 0px;
+  /* max-width: 700px; */
+
+}
+
+div {
+  display: block;
+  padding: 0px;
+  opacity: 90%;
+
+
+}
+
+img {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+
+}
+
+#img-caption {
+
+  width: auto;
+  padding: 2px 5%;
+  opacity: 100%;
+
+}
+
+h1,
+h2,
+p,
+h3 {
+  text-align: center;
+
+}
+
+.bold {
+  font-weight: 800;
+  font-size: 17px
+}
+
+#img-caption2 {
+  background: linear-gradient(rgb(2 138 228), white);
+  padding: 2px 4%;
+  margin: auto;
+  width: auto;
+  max-width: 500px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+li {
+  margin-left: 5%;
+  max-width: 1000px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.l {
+  font-style: italic;
+}
