@@ -7,11 +7,14 @@
 - [4W02](https://hkscsheph.github.io/fccCertProj/2425/1/4W02/)
 - [4W03](https://hkscsheph.github.io/fccCertProj/2425/1/4W03/)
 - [4W06](https://hkscsheph.github.io/fccCertProj/2425/1/4W06/)
+- [4W07](https://hkscsheph.github.io/fccCertProj/2425/1/4W07/)
 - [4W09](https://hkscsheph.github.io/fccCertProj/2425/1/4W09/)
+- [4W12](https://hkscsheph.github.io/fccCertProj/2425/1/4W12/)
 - [4W14](https://hkscsheph.github.io/fccCertProj/2425/1/4W14/)
 - [4W16](https://hkscsheph.github.io/fccCertProj/2425/1/4W16/)
 - [4W23](https://hkscsheph.github.io/fccCertProj/2425/1/4W23/)
 - [4W25](https://hkscsheph.github.io/fccCertProj/2425/1/4W25/)
+- [4Y11](https://hkscsheph.github.io/fccCertProj/2425/1/4Y11/)
 
 ### 認證項目 2 致敬頁
 - [4W02](https://hkscsheph.github.io/fccCertProj/2425/2/4W02/)
