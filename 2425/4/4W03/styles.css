@@ -1,0 +1,73 @@
+img {
+
+  max-width: 270px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+}
+
+.container {
+  padding: 220px 50px;
+}
+
+a {
+  color: #484848;
+  text-shadow: 1px 1px 2px rgba(72, 72, 72, 0.6);
+  text-decoration: none;
+  font: Bold 18px DIN Condensed, Noto Sans TC, Microsoft JhengHei, sans-serif;
+}
+
+iframe {
+  margin-top: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #cdcdcd;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  @media only screen and (max-width: 815px) {
+    /* For mobile phones: */
