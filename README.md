@@ -40,6 +40,7 @@
 - [4Y11](https://hkscsheph.github.io/fccCertProj/2425/2/4Y11/)
 
 ### 認證項目 3 說明文件
+- [4K24](https://hkscsheph.github.io/fccCertProj/2425/3/4K24/)
 - [4W02](https://hkscsheph.github.io/fccCertProj/2425/3/4W02/)
 - [4W03](https://hkscsheph.github.io/fccCertProj/2425/3/4W03/)
 - [4W06](https://hkscsheph.github.io/fccCertProj/2425/3/4W06/)
