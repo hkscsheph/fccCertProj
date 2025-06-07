@@ -19,6 +19,7 @@
 
 ### 認證項目 2 致敬頁
 - [4C09](https://hkscsheph.github.io/fccCertProj/2425/2/4C09/)
+- [4C27](https://hkscsheph.github.io/fccCertProj/2425/2/4C27/)
 - [4M23](https://hkscsheph.github.io/fccCertProj/2425/2/4M23/)
 - [4K24](https://hkscsheph.github.io/fccCertProj/2425/2/4K24/)
 - [4K27](https://hkscsheph.github.io/fccCertProj/2425/2/4K27/)
