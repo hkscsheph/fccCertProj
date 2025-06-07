@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url("https://www.esquirehk.com/var/site/storage/images/_aliases/img_1200_w/0/3/7/2/6152730-1-chi-HK/GAgUuR_bgAAScg_.jpeg");
+  background-size: cover;
+  color: yellow;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+#survey-form {
+  max-width: 350px;
+  min-width: 400px;
+  padding: 4px;
+  background: #B9CCEB;
+  opacity: 0.85
+}
+
+h1,
+p {
+  margin: 2em auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 20px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #E4A1BD;
+  border: 1px solid #E4A1BD;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #677EA4;
+  border-color: #677EA4;
+  min-width: 300px;
+}
+
+select {
+  width: 19%;
+  background-color: #74E846;
+  color: #6544;
+}
+
+input[id="number"] {
+  width: 60%;
+}
+
+input[type="radio"] {
+  font-size: 12px;
+  width: unset;
+}
+
+/* label[for="totally-agree"] {
+  font-size: 17px;
+  display: inline-block;
+} */
+label.font17 {
+  font-size: 19px;
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+}
+
+label.font17 input {
+  margin: 0
+}
+
+fieldset {
+  margin: auto;
+  padding: 1rem
+}
+
+legend {
+  font-size: 33px;
+}
+
+input[type="checkbox"] {
+  font-size: 19px;
+}
+
+#like {
+  font-size: 23px;
+}
+
+#type {
+  font-size: 22px
+}
+
+#description {
+  font-size: 1px;
+}
+
+* font {
+  opacity: 1
+}

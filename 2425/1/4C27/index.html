@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title"> Chiikawa Survey Form</h1>
+<p id="description"> cutie chiikawa </p>
+<form id="survey-form">
+
+  <fieldset>
+    <legend>Information</legend>
+    <label id="name-label">Name</label>
+    <input id="name" type="text" required placeholder="enter your name"></input>
+    <label id="email-label">Email</label>
+    <input id="email" type="email" required placeholder="enter your email"></input>
+    <label id="number-label">Age<label>
+        <input id="number" type="number" min="0" max="100" placeholder="enter your age"></input>
+        <select id="dropdown">
+          <option name="1">Male</option>
+          <option name="2">Female</option>
+        </select>
+  </fieldset>
+  <fieldset>
+    <legend>Questions</legend>
+    <label id="like">Do You Like chiikawa?</label>
+    <label for="yes" class="font17"><input id="yes" type="radio" name="a" value="a">yes</label>
+    <label for"no" class="font17"><input type="radio" value="a" name="a">no</input>
+    </label>
+    <label id="type">What Chiikawa characters you like?</label>
+    <label class="font17"><input type="checkbox" value="b">Chiikawa</input></label>
+    <label class="font17"><input type="checkbox" value="b">Hachiware</input></label>
+    <label class="font17"><input type="checkbox" value="b">Usagi</input></label>
+    <label class="font17"><input type="checkbox" value="b">Momonga</input></label>
+    <label class="font17"><input type="checkbox" value="b">Others</input></label>
+    <label id="type">How many Chiikawa you have?</label>
+    <input id="number" type="number" min="0" max="100" placeholder="how many Chiikawa you have?"></input>
+  </fieldset>
+  <label for="story">Tell us your chiikawa </label>
+  <textarea id="story" name="story" rows="5" cols="33">It is cute...</textarea>
+  <input id="submit" type="submit"></input>
+</form>
+
+</html>
