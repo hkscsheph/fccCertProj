@@ -1,0 +1,60 @@
+* {
+  font-family: Iansui;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+header {
+  padding-top: 40px;
+  font-size: 48px;
+}
+
+#navbar {
+  position: fixed;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  height: 100vh;
+}
+
+#navbg {
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-90deg) translate(-55%,-60%) scale(1.3) scaleX(1.05)
+}
+
+#navbar header {
+  padding: 0px;
+  font-size: 24px;
+}
+
+.nav-link {
+  display: none;
+}
+
+.nav-chi-link:hover,
+.nav-chi-link:active {
+  background: #fff;
+}
+
+.nav-chi-link,
+.nav-chi-link:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+main {
+  z-index: -10;
+  position: absolute;
+  left: 20%;
+}
+
+.gamepic {
+  margin-top: 10px;
+  width: 60%;
+}
+@media (min-width: 30em) and (orientation: landscape) { ... }
