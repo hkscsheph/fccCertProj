@@ -1,0 +1,32 @@
+body {
+  background-image: url("https://i.pinimg.com/236x/42/a3/ec/42a3ec7dd2d811166d39173c128aa7c7.jpg");
+  background-size: cover;
+  position: center;
+}
+
+#main {
+  max-width: 350px;
+  min-width: 400px;
+  padding: 4px;
+  background: #fffd;
+  margin: auto;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+section {
+  text-align: center;
+}
