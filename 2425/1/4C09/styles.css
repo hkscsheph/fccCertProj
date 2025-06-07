@@ -1,0 +1,143 @@
+.alisson {
+  position: relative;
+  width: 200px;
+  left: -20px;
+}
+
+.courtois {
+  position: relative;
+  width: 205px;
+  left: -30px;
+}
+
+.kobel {
+  position: relative;
+  width: 205px;
+  left: -50px
+}
+
+.ederson {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.simon {
+  position: relative;
+  width: 205px;
+  left: -30px;
+}
+
+.oblak {
+  position: relative;
+  width: 205px;
+  left: -40px;
+}
+
+.saliba {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.vandijk {
+  position: relative;
+  width: 205px;
+  left: -30px
+}
+
+.dias {
+  position: relative;
+  width: 205px;
+  left: -30px
+}
+
+.kimmich {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.tah {
+  position: relative;
+  width: 205px;
+  left: -40px
+}
+
+.bastoni {
+  position: relative;
+  width: 205px;
+  left: -40px
+}
+
+.kdb {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.musiala {
+  position: relative;
+  width: 205px;
+  left: -40px
+}
+
+.wirtz {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.bellingham {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.TAA {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.marquinhos {
+  position: relative;
+  width: 205px;
+  left: -40px
+}
+
+.hummels {
+  position: relative;
+  width: 205px;
+  left: -40px
+}
+
+.hernandez {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+.kounde {
+  position: relative;
+  width: 205px;
+  left: -20px
+}
+
+body {
+  background-image: url('https://media.contentapi.ea.com/content/dam/ea/fc/fc-24/common/toty/fc24-toty-section-bg-about-countdown-xl.jpg.adapt.1920w.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  color: white;
+}
+
+input[type="radio"] {
+  display: none
+}
+
+textarea {
+  display: none;
+}

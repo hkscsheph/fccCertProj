@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <form id="survey-form">
+    <input type="radio" value="radio" name="radio"></input>
+    <input type="radio" value="radio" name="radio"></input>
+    <h1 id="title">Vote Your TOTY fc 25</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <fieldset>
+      <label id="name-label" for="name">NAME:
+        <input id="name" type="text" value="name" required placeholder="ENTER YOUR NAME:">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label id="email-label" for="email" value="email">EMAIL:
+        <input id="email" type="email" required placeholder="ENTER YOUR EMAIL:">
+      </label>
+    </fieldset>
+    <fieldset>
+      <label id="number-label" for="number" value="number">HOW MANY EASTER EGGS DO YOU FIND:
+        <input id="number" type="number" name="number" min="1" max="10" placeholder="number" /></label>
+    </fieldset>
+    <fieldset>
+      <label for="referrer" value="referrer">Goal keppers</label>
+      <select id="dropdown" name="referrer">
+        <option value="">(select one)</option>
+        <option value="1">Alisson</option>
+        <option value="2">Courtois</option>
+        <option value="3">Kobel</option>
+        <option value="4">Ederson</option>
+        <option value="5">unai simon</option>
+        <option value="6">Jan Oblak</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <label for="referrer" value="referrer">Defenders</label>
+
+      <h2>Select Your Options (max 4)</h2>
+      <br><label><input type="checkbox" class="option1" value="referrer">William Saliba</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Virgil Van dijk</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Ruben Dias</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Joshua kimmich</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Jonathan Tah</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Alessandro Bastoni</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Trent Alexander-Arnold</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Marquinhos</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Mats Hummels</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Theo Hernandez</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Jules Koundé</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Jeremie Frimpong</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Alejandro Grimaldo</label><br>
+      <label><input type="checkbox" class="option1" value="referrer">Federico Dimarco</label><br>
+      <div class="error" id="error-message1" style="display: none;">You can only select up to 4 options.</div>
+    </fieldset>
+    <fieldset>
+      <label for="referrer" value="referrer">midfielder</label>
+
+      <h2>Select Your Options (max 3)</h2>
+      <label><input type="checkbox" class="option2" value="referrer">Kevin De bruyne</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Martin Ødergaard</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Florian Writz</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Jamal Musiala</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Jude Bellingham</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Declan Rice</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Bernardo Silva</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Rodri</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Nicolò Barella</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Adrien Rabiot</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Pedri</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">İlkay Gündoğan</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Luka Modrić</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Federico Valverde</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Michael Olise</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Fabián Ruiz</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">James Maddison</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Cole Palmer</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Alexis Mac Allister</label><br>
+      <label><input type="checkbox" class="option2" value="referrer">Dominik Szoboszlai</label><br>
+      <div class="error" id="error-message2" style="display: none;" value="referrer">You can only select up to 3
+        options.</div>
+    </fieldset>
+    <fieldset>
+      <label for="referrer" value="referrer">forward/attacker</label>
+      <h2>Select Your Options (max 3)</h2>
+      <label><input type="checkbox" class="option3" value="referrer">Bukayo Saka</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Mohamed Salah</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Erling Haaland</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Heung Min Son</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Ousmane Dembélé</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Harry Kane</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Loïs Openda</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Serhou Guirassy</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Lautaro Martínez</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Rafael Leão</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Khvicha Kvaratskhelia</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Morata</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Robert Lewandowski</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Vini Jr.</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Lamine Yamal</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Raphinha</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Viktor Gyökeres</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Jonathan David</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Ademola Lookman</label><br>
+      <label><input type="checkbox" class="option3" value="referrer">Ollie Watkins</label><br>
+      <div class="error" id="error-message3" style="display: none;">You can only select up to 3 options.</div>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit" value="referrer" /><br>
+    <img class="alisson" src="https://i.imgur.com/TixR7Wj.png">
+    <img class="courtois" src="https://i.imgur.com/PE2HOZM.png">
+    <img class="kobel" src="https://i.imgur.com/vLDVBM3.png">
+    <img class="ederson" src="https://i.imgur.com/T62CZ87.png">
+    <img class="simon" src="https://i.imgur.com/8XbdATW.png">
+    <img class="oblak" src="https://i.imgur.com/gzO83KK.png">
+    <img class="saliba" src="https://i.imgur.com/MEHH3Ng.png">
+    <img class="vandijk" src="https://i.imgur.com/Z1FcLAu.png">
+    <img class="dias" src="https://i.imgur.com/vuPKbAI.png">
+    <img class="kimmich" src="https://i.imgur.com/1MKstMo.png">
+    <img class="tah" src="https://i.imgur.com/1Oc2J0t.png">
+    <img class="bastoni" src="https://i.imgur.com/LXPSafR.png">
+    <img class="TAA" src="https://i.imgur.com/E1hXQ6o.png">
+    <img class="marquinhos" src="https://i.imgur.com/8n3Fn6j.png">
+    <img class="hummels" src="https://i.imgur.com/aWQmVR1.png">
+    <img class="hernandez" src="https://i.imgur.com/sEReSwT.png">
+    <img class="kounde" src="https://i.imgur.com/vGyDZV7.png">
+    <img class="kdb" src="https://i.imgur.com/rw1vsc5.png">
+    <img class="wirtz" src="https://i.imgur.com/K9PETKD.png">
+    <img class="musiala" src="https://i.imgur.com/nTsatFq.png">
+    <img class="bellingham" src="https://i.imgur.com/iiQYhfh.png">
+
+    <script>
+      function setLimit(option, err, n) {
+        const checkboxes = document.querySelectorAll(option);
+        const errorMessage = document.getElementById(err);
+
+        checkboxes.forEach(checkbox => {
+          checkbox.addEventListener('change', () => {
+            const checkedCount = Array.from(checkboxes).filter(i => i.checked).length;
+
+            if (checkedCount > n) {
+              checkbox.checked = false; // Uncheck the current checkbox
+              errorMessage.style.display = 'block'; // Show error message
+            } else {
+              errorMessage.style.display = 'none'; // Hide error message
+            }
+          });
+        });
+
+        //document.getElementById('myForm').addEventListener('submit', (e) => {
+        //    const checkedCount = Array.from(checkboxes).filter(i => i.checked).length;
+
+        //    if (checkedCount > 4) {
+        //        e.preventDefault(); // Prevent form submission
+        //        errorMessage.style.display = 'block'; // Show error message
+        //    }
+        //});
+      }
+      setLimit(".option1", "error-message1", 4)
+      setLimit(".option2", "error-message2", 3)
+      setLimit(".option3", "error-message3", 3)
+    </script>
+    <textarea></textarea>
+  </form>
+  hummels does not have a club is a bug<br>
+  easter eggs:<br>
+  van dijk - van dick<br>
+  vandijk from china<br>
+  TAA from georgia<br>
+  kounde type wrong is def not cb<br>
+  Bellingham from georgia
