@@ -2,233 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roblox Game Landing Page</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Arial', sans-serif;
-    }
-
-    body {
-      background: linear-gradient(135deg, #1a2e23, #16213e);
-      color: #ffffff;
-    }
-
-    #header {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.8);
-      backdrop-filter: blur(10px);
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-    }
-
-    #header-img {
-      width: 150px;
-      transition: transform 0.3s ease;
-    }
-
-    #header-img:hover {
-      transform: scale(1.1);
-    }
-
-    #nav-bar {
-      display: flex;
-      gap: 2rem;
-    }
-
-    .nav-link {
-      color: #ffffff;
-      text-decoration: none;
-      font-size: 1.1rem;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      transition: background 0.3s ease;
-    }
-
-    .nav-link:hover {
-      background: #45e9c8;
-    }
-
-    main {
-      margin-top: 80px;
-      padding: 2rem;
-    }
-
-    section {
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-
-    #features {
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 15px;
-      margin: 2rem auto;
-      max-width: 1200px;
-    }
-
-    #features h2 {
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-      color: #ffffff;
-    }
-
-    .feature-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      justify-content: center;
-    }
-
-    .feature-card {
-      background: rgba(255, 255, 255, 0.05);
-      padding: 2rem;
-      border-radius: 10px;
-      width: 300px;
-      transition: transform 0.3s ease;
-    }
-
-    .feature-card:hover {
-      transform: translateY(-10px);
-    }
-
-    #video-section {
-      margin: 4rem 0;
-    }
-
-    #video {
-      width: 100%;
-      max-width: 800px;
-      height: 450px;
-      border: none;
-      border-radius: 15px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
-
-    #form-section {
-      background: linear-gradient(45deg, #05270d, #074151);
-      padding: 3rem;
-      border-radius: 15px;
-      max-width: 600px;
-      margin: 2rem auto;
-    }
-
-    #form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    #email {
-      padding: 0.8rem;
-      border: none;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-
-    #email::placeholder {
-      color: #777;
-    }
-
-    #submit {
-      padding: 0.8rem;
-      background: #1a1a2e;
-      color: #ffffff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1.1rem;
-      transition: background 0.3s ease;
-    }
-
-    #submit:hover {
-      background: #e94560;
-    }
-
-    footer {
-      padding: 2rem;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.8);
-    }
-
-    @media (max-width: 768px) {
-      #header {
-        flex-direction: column;
-        gap: 1rem;
-      }
-
-      #nav-bar {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .feature-card {
-        width: 100%;
-      }
-
-      #video {
-        height: 300px;
-      }
-    }
-  </style>
+  <title>Deepwoken</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header id="header">
-    <img id="header-img" src="https://i.imgur.com/yZeVcAF.jpeg" alt="Roblox Logo" style="width: 100px; height: auto;">
-    <nav id="nav-bar">
-      <a class="nav-link" href="#features">Features</a>
-      <a class="nav-link" href="#video-section">Video</a>
-      <a class="nav-link" href="#form-section">Sign Up</a>
+  <header>
+    <h1>Deepwoken</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#video">Video</a>
+      <a href="#signup">Sign Up</a>
     </nav>
   </header>
 
   <main>
     <section id="features">
-      <h2>Explore Our Roblox Game</h2>
-      <div class="feature-grid">
-        <div class="feature-card">
-          <h3>Immersive Worlds</h3>
-          <p>ingame maps that you will permanently receive for free across all slots once talking to a Shipwright for
-            the first time.</p>
-        </div>
-        <div class="feature-card">
-          <h3>Attunements</h3>
-          <p>magic that the player can choose on Character Creation or obtain in the game through Trainers.</p>
-        </div>
-        <div class="feature-card">
-          <h3>Oaths</h3>
-          <p> viewpoints and beliefs that a character vows to live by until the day they fall.</p>
-        </div>
+      <h2>Stuff in Game</h2>
+      <div>
+        <h3>Worlds</h3>
+        <p>Deepwoken has ingame maps that you will permanently receive for free across all slots once talking to a
+          Shipwright for the first time.</p>
+      </div>
+      <div>
+        <h3>Attunements</h3>
+        <p>Attunements are forms of magic that the player can choose on Character Creation or obtain in the game through
+          Trainers.</p>
+      </div>
+      <div>
+        <h3>Oaths</h3>
+        <p>Specialized pledges that characters can take to gain access to unique abilities and bonuses.</p>
       </div>
     </section>
 
-    <section id="video-section">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kkERJc-Qe4o?si=HV8FIa2qbOYUp_7K"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section id="video">
+      <h2>Game Video</h2>
+      <iframe src="https://www.youtube.com/embed/kkERJc-Qe4o" width="400" height="200"></iframe>
     </section>
 
-    <section id="form-section">
-      <h2>Join the Adventure</h2>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input id="email" type="email" name="email" placeholder="Enter your email" required>
-        <input id="submit" type="submit" value="Get Started">
+    <section id="signup">
+      <h2>Join Game</h2>
+      <form action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" placeholder="email">
+        <input type="submit" value="Join">
       </form>
     </section>
   </main>
 
-  <footer id="footer">
-    <p>&copy; 2025 Roblox Game. All rights reserved.</p>
+  <footer>
+    <p>DEEPWOKEN the best :)</p>
   </footer>
 </body>
 

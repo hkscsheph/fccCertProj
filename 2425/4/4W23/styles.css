@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background: url('https://i.imgur.com/ydWSHuh.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 20px 0 0;
+}
+
+nav a {
+  color: #03ff28;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  margin: 15px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #026b12;
+}
+
+h3 {
+  font-size: 18px;
+  color: #00ad1a;
+}
+
+p {
+  font-size: 16px;
+}
+
+iframe {
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+form {
+  margin: 15px 0;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background: #00ad1a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #00ad1a;
+}
+
+footer {
+  color: #0fff03;
+  padding: 10px;
+  text-align: center;
+}
