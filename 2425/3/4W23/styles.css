@@ -1,60 +1,111 @@
-* {
-  font-family: Iansui;
-  box-sizing: border-box;
-}
 body {
   margin: 0;
-}
-
-header {
-  padding-top: 40px;
-  font-size: 48px;
+  padding: 0;
+  background-image: url('https://i.imgur.com/VzexdSr.gif');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #000000;
 }
 
 #navbar {
   position: fixed;
-  width: 125px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  text-align: center;
-  height: 100vh;
-}
-
-#navbg {
-  position: absolute;
-  z-index: -1;
-  transform: rotate(-90deg) translate(-55%,-60%) scale(1.3) scaleX(1.05)
+  left: 0;
+  top: 0;
+  width: 220px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
 }
 
 #navbar header {
-  padding: 0px;
-  font-size: 24px;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .nav-link {
-  display: none;
+  display: block;
+  color: #00d11f;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.nav-chi-link:hover,
-.nav-chi-link:active {
-  background: #fff;
+.nav-link2 {
+  display: block;
+  color: #000000;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.nav-chi-link,
-.nav-chi-link:visited {
-  color: #000;
-  text-decoration: none;
+.nav-link:hover {
+  background-color: #ffffff;
+  color: #00d11f;
 }
 
-main {
-  z-index: -10;
-  position: absolute;
-  left: 20%;
+#main-doc {
+  margin-left: 240px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  max-width: 800px;
 }
 
-.gamepic {
-  margin-top: 10px;
-  width: 60%;
+.main-section {
+  margin-bottom: 50px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
 }
-@media (min-width: 30em) and (orientation: landscape) { ... }
+
+.main-section header {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #000000;
+}
+
+.section-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+
+  .main-section header {
+    font-size: 1.6em;
+  }
+}

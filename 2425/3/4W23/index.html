@@ -4,194 +4,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roblox Studio Game Development Documentation</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f4f8;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    #navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 250px;
-      height: 100%;
-      background: linear-gradient(180deg, #1a73e8, #0d47a1);
-      color: white;
-      padding: 20px;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-      overflow-y: auto;
-    }
-
-    #navbar header {
-      font-size: 1.5em;
-      margin-bottom: 20px;
-      text-align: center;
-      color: #fff;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    }
-
-    .nav-link {
-      display: block;
-      color: #e8f0fe;
-      text-decoration: none;
-      padding: 10px;
-      margin: 5px 0;
-      border-radius: 5px;
-      transition: background 0.3s, transform 0.2s;
-    }
-
-    .nav-link:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateX(5px);
-    }
-
-    #main-doc {
-      margin-left: 270px;
-      padding: 40px;
-      max-width: 1000px;
-    }
-
-    .main-section {
-      margin-bottom: 40px;
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s;
-    }
-
-    .main-section:hover {
-      transform: translateY(-5px);
-    }
-
-    .main-section header {
-      font-size: 1.8em;
-      color: #1a73e8;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #1a73e8;
-      padding-bottom: 5px;
-    }
-
-    p {
-      margin: 10px 0;
-      color: #444;
-    }
-
-    code {
-      background: #f5f5f5;
-      padding: 2px 6px;
-      border-radius: 4px;
-      color: #d32f2f;
-      font-family: 'Courier New', monospace;
-    }
-
-    ul {
-      margin: 10px 0;
-      padding-left: 30px;
-    }
-
-    li {
-      margin: 5px 0;
-      color: #444;
-    }
-
-    @media (max-width: 768px) {
-      #navbar {
-        width: 100%;
-        height: auto;
-        position: static;
-        padding: 10px;
-      }
-
-      #main-doc {
-        margin-left: 0;
-        padding: 20px;
-      }
-
-      .main-section {
-        padding: 15px;
-      }
-    }
-  </style>
+  <title>Deepwoke</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <nav id="navbar">
-    <header>Roblox Studio Guide</header>
-    <a class="nav-link" href="#Getting_Started">Getting Started</a>
-    <a class="nav-link" href="#Scripting_Basics">Scripting Basics</a>
-    <a class="nav-link" href="#Building_Environments">Building Environments</a>
-    <a class="nav-link" href="#Game_Mechanics">Game Mechanics</a>
-    <a class="nav-link" href="#Publishing_Your_Game">Publishing Your Game</a>
+    <header>Deepwoken Technical Documentation</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Build" class="nav-link">Build</a>
+    <a href="#Combat_System" class="nav-link">Combat System</a>
+    <a href="#Exploration" class="nav-link">Exploration</a>
+    <a href="#Tips_and_Tricks" class="nav-link">Tips and Tricks</a>
   </nav>
 
   <main id="main-doc">
-    <section class="main-section" id="Getting_Started">
-      <header>Getting Started</header>
-      <p>Roblox Studio is a powerful tool for creating games on the Roblox platform. To begin, download Roblox Studio
-        from the official Roblox website.</p>
-      <p>After installation, create a new project by selecting a template like "Obby" or "Baseplate".</p>
-      <p>Familiarize yourself with the interface, including the Explorer, Properties, and Toolbox windows.</p>
-      <code>View > Explorer</code> to open the Explorer panel.
-      <ul>
-        <li>Install Roblox Studio.</li>
-        <li>Create a new project.</li>
-        <li>Explore the interface.</li>
-      </ul>
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <img src="https://i.imgur.com/4qZfq1S.jpeg" alt="asfasg124rf" class="section-image">
+      <p>Deepwoken is a permadeath game with high stakes.</p>
+      <p>Players can explore various regions, engage in combat, and build their own characters.</p>
+      <p>The game features a unique permadeath mechanic, adding a layer of challenge.</p>
+      <p>Players can choose from different build stats and abilities to customize their gameplay.</p>
+      <p>Understanding the game mechanics is essential to survival.</p>
     </section>
 
-    <section class="main-section" id="Scripting_Basics">
-      <header>Scripting Basics</header>
-      <p>Roblox uses Lua, a lightweight scripting language. Scripts are added via the Explorer by inserting a
-        <code>Script</code> object.</p>
-      <p>Example of a simple script to print a message:</p>
-      <code>print("Hello, Roblox!")</code>
-      <p>Scripts can be attached to parts or server scripts for game logic.</p>
+    <section class="main-section" id="Build">
+      <header>Build</header>
+      <img src="https://i.imgur.com/DHNsLSE.jpeg" alt="asfagsxfa" class="section-image">
+      <p>A good build is the first step in your Deepwoken journey.</p>
+      <p>First, you need to know what your race is good for.</p>
+      <p>Each race has a different play style.</p>
+      <p>For example, if you are a <strong>Ganymede</strong>, you gain the ability to get more ether.</p>
+      <p>Make sure to consider your playstyle when creating your character.</p>
+      <p>Here are some races you can choose from:</p>
       <ul>
-        <li>Learn Lua syntax.</li>
-        <li>Use <code>Instance.new()</code> to create objects.</li>
+        <li><code>Ganymede</code></li>
+        <li>Trian</li>
+        <li>Capra</li>
+        <li>Chrysid</li>
+        <li><code>Vesperian</code></li>
+        <li><code>Felinor</code></li>
+        <li><code>Khan</code></li>
+        <li><code>Gremor</code></li>
+        <li>Canor</li>
+        <li><code>Adret</code></li>
+        <li>Celtor</li>
+        <li>Etrean</li>
       </ul>
+      <a class="nav-link2" href="https://deepwoken.co/builder">USE DEEPWOKEN BUILDER(click me)</a>
     </section>
 
-    <section class="main-section" id="Building_Environments">
-      <header>Building Environments</header>
-      <p>Use the Toolbox to import models or create parts using the Home tab's tools.</p>
-      <p>Adjust properties like <code>Position</code> and <code>Size</code> in the Properties window.</p>
-      <p>Add terrain using the Terrain Editor for natural landscapes.</p>
-      <code>Part.Position = Vector3.new(0, 10, 0)</code>
+    <section class="main-section" id="Combat_System">
+      <header>Combat System</header>
+      <img src="https://i.imgur.com/9WLXMR1.png" alt="safdbsd" class="section-image">
+      <p>The combat system in Deepwoken is dynamic and skill-based.</p>
+      <p>Players can perform various attacks Rule of thumb: don't be afraid to experiment with different playstyles and
+        strategies to find what works best for you., dodges, and parries.</p>
+      <p>Understanding the timing of your moves is essential.</p>
+      <p>Here are some key combat mechanics:</p>
       <ul>
-        <li>Create parts and models.</li>
+        <li>Basic Attacks</li>
+        <li>Critical Attacks</li>
+        <li>Parrying</li>
+        <li>Blocking</li>
+        <li>Feinting</li>
+        <li>Venting</li>
+        <li>Rolling</li>
+        <li>Stealth</li>
+        <li>Uppercut</li>
+        <li>Taunt</li>
       </ul>
+      <p>Practice makes perfect in mastering the combat system.</p>
     </section>
 
-    <section class="main-section" id="Game_Mechanics">
-      <header>Game Mechanics</header>
-      <p>Implement mechanics like player movement, scoring, or interactions using scripts.</p>
-      <p>Example to make a part clickable:</p>
-      <code>part.ClickDetector.MouseClick:Connect(function(player) print(player.Name) end)</code>
-      <p>Use services like <code>Players</code> or <code>ReplicatedStorage</code> for advanced mechanics.</p>
-      <ul>
-        <li>Add ClickDetectors.</li>
-        <li>Manage player data.</li>
-      </ul>
+    <section class="main-section" id="Exploration">
+      <header>Exploration</header>
+      <img src="https://i.imgur.com/NHUJqHt.jpeg" alt="saghbdfr3fedc" class="section-image">
+      <p>Exploration is a core aspect of Deepwoken.</p>
+      <p>Players can traverse the sea, from Etris to New Kyrsa.</p>
+      <p>Each area has unique challenges and rewards.</p>
+      <p>Be on the lookout for hidden treasures and secrets.</p>
+      <p>Utilizing your abilities can help you navigate difficult areas.</p>
     </section>
 
-    <section class="main-section" id="Publishing_Your_Game">
-      <header>Publishing Your Game</header>
-      <p>Once your game is ready, publish it to Roblox via <code>File > Publish to Roblox</code>.</p>
-      <p>Configure game settings like permissions and monetization in the Game Settings menu.</p>
-      <p>Test your game thoroughly before making it public.</p>
+    <section class="main-section" id="Tips_and_Tricks">
+      <header>Tips and Tricks</header>
+      <img src="https://i.imgur.com/SzSm6Z3.jpeg" alt="asfgsdt3efd" class="section-image">
+      <p>Here are some tips to enhance your gameplay:</p>
       <ul>
-        <li>Publish to Roblox.</li>
-        <li>Configure settings.</li>
+        <li>Always keep an eye on the players around you.</li>
+        <li>They may not be a good person.</li>
+        <li>Join a guild.</li>
+        <li>That can make you safe and have a guild base.</li>
+        <li>Better to find a friend to play with you.</li>
       </ul>
+      <p>These tips can help you survive longer in the permadeath world of Deepwoken.</p>
     </section>
+
   </main>
 </body>
 
