@@ -1,0 +1,110 @@
+.title {
+  max-width: 100%;
+}
+
+.top-B {
+  object-fit: contain;
+  width: 40vw;
+}
+
+.story-B {
+  object-fit: cover;
+  width: 55vw;
+}
+
+.B {
+  width: 680px;
+  max-width: 680px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.story {
+  height: 99vw;
+  overflow-y: scroll;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2%;
+  width: 100vw;
+  max-height: 100vw
+}
+
+.top-M {
+  object-fit: contain;
+  width: 40vw;
+}
+
+.story-M {
+  object-fit: contain;
+  width: 55vw;
+}
+
+.M {
+  width: 680px;
+  max-width: 680px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2%;
+  width: 100vw;
+}
+
+.top-W {
+  object-fit: contain;
+  width: 40vw;
+}
+
+.story-W {
+  object-fit: contain;
+  width: 55vw;
+}
+
+.W {
+  width: 680px;
+  max-width: 680px;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2%;
+  width: 100vw;
+}
+
+.top-E {
+  object-fit: contain;
+  width: 40vw;
+}
+
+.story-E {
+  object-fit: contain;
+  width: 55vw;
+}
+
+.E {
+  width: 680px;
+  max-width: 680px;
+  border: 1px solid black;
+  verflow: auto;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2%;
+  width: 100vw;
+}
+
+.image {
+  position: relative;
+}
+
+.image a {
+  display: block;
+  position: absolute;
+}
