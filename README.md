@@ -53,6 +53,7 @@
 - [4W25](https://hkscsheph.github.io/fccCertProj/2425/3/4W25/)
 
 ### 認證項目 4 登錄頁面
+- [4C27](https://hkscsheph.github.io/fccCertProj/2425/3/4C27/)
 - [4W02](https://hkscsheph.github.io/fccCertProj/2425/3/4W02/)
 - [4W03](https://hkscsheph.github.io/fccCertProj/2425/3/4W03/)
 - [4W07](https://hkscsheph.github.io/fccCertProj/2425/3/4W07/)
